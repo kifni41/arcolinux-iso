@@ -115,3 +115,8 @@ Include = /etc/pacman.d/arcolinux-mirrorlist
 [arcolinux_repo_submicron]
 SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/arcolinux-mirrorlist
+
+[sublime-text]
+SigLevel = Required DatabaseOptional
+Server = https://download.sublimetext.com/arch/stable/x86_64
+Include = /etc/pacman.d/arcolinux-mirrorlist
